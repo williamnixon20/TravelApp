@@ -1,0 +1,108 @@
+.card {
+    width: 250px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label {
+    width: max-content;
+    color: tomato;
+    font-size: 15px;
+    border-bottom: .5px solid tomato;
+    margin: 3px 0;
+}
+
+.error {
+    width: 250px;
+    color: black;
+    border-bottom: none;
+}
+
+.review {
+    font-size: 16px;
+}
+
+.star-gold {
+    color: gold;
+}
+
+.star-gray {
+    color: gray;
+}
+
+.username {
+    font-size: 16px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+form {
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 60px;
+}
+
+.submitButton {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.adminbutton {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.logout {
+    background-color: tomato;
+}
+
+.login {
+    background-color: teal;
+    margin-right: 5px;
+}
+
+.register {
+    background-color: slateblue;
+}
+
+.buttonscontainer,
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.priority {
+    z-index: 1;
+}
+
+.delete {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
